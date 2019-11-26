@@ -2043,7 +2043,7 @@ input, select, textarea {
 			content: '';
 			display: inline-block;
 			height: 1px;
-			margin-top: 1.5em;
+			margin-top: 1em;
 			width: 6em;
 		}
 
@@ -2937,7 +2937,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #667db6 5%, #0082c8 30%, #667db6);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3531,3 +3531,53 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* Custom edits */
+
+	#one {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+		#one .gtr-150 .left-side {
+			display: inline-block;
+			text-align: left;		
+			width:40%;	
+			margin-right: 170px;
+		}
+
+		#one .gtr-150 .left-side .col-12-medium {
+			text-align: center;
+		}
+
+		#one .gtr-150 .right-side {
+			display: inline-block;
+			text-align: right;		
+			width:40%;	
+			padding-left: 250px;
+		}
+
+		#one .gtr-150 .right-side .col-12-medium {
+			text-align: center;
+			width:470px
+		}
+
+		#one h2 {
+			margin-bottom: 20px;
+		}
+
+		#one p {
+			font-size: 18px;
+		}
+
+	
+
+
+	#three {
+		padding-top: 50px;
+	}
+
+		#three p {
+			font-size: 19px;
+		}
