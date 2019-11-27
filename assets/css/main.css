@@ -373,7 +373,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6custom {
-			width: 40%;
+			width: 100%;
 			text-align: center;
 		}
 
@@ -3581,3 +3581,19 @@ input, select, textarea {
 		#three p {
 			font-size: 19px;
 		}
+
+#one .container {
+	
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 50px;
+}
+
+.lang-icon {
+	font-size: 50px;
+}
+
+#one li {
+	display: inline-block;
+	font-size: 19px;
+}
