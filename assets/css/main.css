@@ -3594,6 +3594,7 @@ grid-gap: 50px;
 }
 
 #one li {
+	list-style-type: none;
 	display: inline-block;
 	font-size: 19px;
 }
